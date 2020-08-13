@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+<script type="text/javascript" src="JS/script.js"></script>
+</head>
+<body>
+
+  
+<div style="width: 100%; display: table;">
+    <div style="display: table-row">
+        <div id="Target1" style="width:350px; height:5px; padding-top: 10px;display: table-cell;">
+            <h1>Target1</h1>
+        </div>         
+        <div id="Target2" style="width:350px; padding-left:10px; padding-top: 10px;height:5px;display: table-cell;">
+            <h1>Target2</h1>
+        </div>
+    </div>
+</div>
+  <div id="target1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  </div>
+<div id="target2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div style="width: 100%; display: table;">
+    <div style="display: table-row">
+        <div id="Target1" style="width:350px; height:5px; padding-top: 10px;display: table-cell;">
+            <h1>Status</h1>
+        </div>         
+        <div id="Target2" style="width:350px; padding-left:10px; padding-top: 10px;height:5px;display: table-cell;">
+            <h1>Source</h1>
+        </div>
+    </div>
+</div>
+<br><div id="status">Number of images in source div: <br> Number of images in target1 div: <br> Number of images in target2 div: </div>
+<div id="source">
+  <img id="drag" src="assets/penguins.jpg" draggable="true" ondragstart="drag(event)" width="50" height="69"/>
+   <img id="drag2" src="assets/koala.jpg" draggable="true" ondragstart="drag(event)" width="50" height="69"/>
+   <img id="drag3" src="assets/jellyfish.jpg" draggable="true" ondragstart="drag(event)" width="50" height="69"/>
+   <img id="drag4" src="assets/koala.jpg" draggable="true" ondragstart="drag(event)" width="50" height="69"/>
+   <img id="drag5" src="assets/koala.jpg" draggable="true" ondragstart="drag(event)" width="50" height="69"/>
+   <img id="drag6" src="assets/koala.jpg" draggable="true" ondragstart="drag(event)" width="50" height="69"/>
+   <img id="drag7" src="assets/koala.jpg" draggable="true" ondragstart="drag(event)" width="50" height="69"/>
+</div>
+</body>
+</html>
